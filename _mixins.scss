@@ -1,0 +1,10 @@
+@mixin font-smoothing() {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+} 
+
+@mixin todoapp-input($color) {
+	font-style: italic;
+	font-weight: 300;
+	color: $color;
+}

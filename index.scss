@@ -1,16 +1,4 @@
-$background: #fff;
-$todoapp:#e6e6e6;
-
-@mixin font-smoothing() {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-} 
-
-@mixin todoapp-input($color) {
-	font-style: italic;
-	font-weight: 300;
-	color: $color;
-}
+@import 'variable', 'mixins';
 
 html,
 body {
